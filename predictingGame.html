@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Prediction Game</title>
+</head>
+<body>
+	<div class="container" id="title-section">
+    	<p id="title">Word Prediction Game</p>
+	</div>
+    <div class="container" id="game-window">
+        <div id="letters-window">
+            <div class="letter-container">
+                <object class="letter-svg" data="./svg-files/C.svg" type="text/svg"></object>
+                <div class="letter-veil"><strong>?</strong></div>
+            </div>
+            <div class="letter-container">
+                <object class="letter-svg" data="./svg-files/L.svg" type="text/svg"></object>
+                <div class="letter-veil"><strong>?</strong></div>
+            </div>
+            <div class="letter-container">
+                <object class="letter-svg" data="./svg-files/O.svg" type="text/svg"></object>
+                <div class="letter-veil"><strong>?</strong></div>
+            </div>
+            <div class="letter-container">
+                <object class="letter-svg" data="./svg-files/U.svg" type="text/svg"></object>
+                <div class="letter-veil"><strong>?</strong></div>
+            </div>
+            <div class="letter-container">
+                <object class="letter-svg" data="./svg-files/D.svg" type="text/svg"></object>
+                <div class="letter-veil"><strong>?</strong></div>
+            </div>
+        </div>
+        <div id="ui">
+            <p>Type your guess here:&nbsp;&nbsp;<input id="guess-input" type="text"></p>
+            <button id="submit-button">Submit</button>
+            <button id="reset-button" style="display: none;">Reset</button>
+            <div id="lives-display">
+                <p>Lives:</p>
+                <div id="hearts">
+                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 3em"></object>
+                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 3em"></object>
+                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 3em"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
