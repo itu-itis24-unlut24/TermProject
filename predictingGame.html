@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./gamepage.css">
     <title>Prediction Game</title>
 </head>
 <body>
@@ -35,12 +36,16 @@
             <p>Type your guess here:&nbsp;&nbsp;<input id="guess-input" type="text"></p>
             <button id="submit-button">Submit</button>
             <button id="reset-button" style="display: none;">Reset</button>
-            <div id="lives-display">
+            <div id="scoreboard">
                 <p>Lives:</p>
                 <div id="hearts">
-                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 3em"></object>
-                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 3em"></object>
-                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 3em"></object>
+                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 2.4em"></object>
+                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 2.4em"></object>
+                    <object id="heart-svg" data="./svg-files/heart.svg" type="text/svg" style="width: 2.4em"></object>
+                </div>
+                <div id="points">
+                    <p>Score:</p>
+                    <p id="points">0</p>
                 </div>
             </div>
         </div>
