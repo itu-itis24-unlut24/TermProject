@@ -144,6 +144,6 @@ button {
     font-weight: 300;
 }
 
-#points * {
-    display: inline;
+#score-display {
+    margin-top: 0.3rem;
 }
