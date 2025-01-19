@@ -1,0 +1,46 @@
+:root {
+    --darker-green: #33372C;
+    --lighter-green: #557C56;
+}
+
+body {
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    background-image: url("./svg-files/blob-scene-haikei.svg");
+    background-size: cover;
+    background-color: #CF885B;
+    color: var(--lighter-green);
+}
+
+p {
+    line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--darker-green);
+}
+
+.container {
+    background-color: #FFE5CF;
+    margin: 2em auto;
+    text-align: center;
+    border: 1px solid var(--darker-green);
+    border-radius: 1em;
+}
+
+#title-section {
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+#my-picture {
+    margin: auto auto;
+    display: block;
+}
+
+#skills div {
+    display: inline-block;
+    vertical-align: top;
+    margin: auto 6em;
+}
+
