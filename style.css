@@ -9,6 +9,8 @@ body {
     background-image: url("./svg-files/blob-scene-haikei.svg");
     background-size: cover;
     background-color: #CF885B;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: var(--lighter-green);
 }
 
@@ -28,6 +30,26 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 1em;
 }
 
+.link-button {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    border-radius: 0.6em;
+    background-color: #FFE5CF;
+    max-width: 7em;
+    padding: 0.3em 1em;
+    color: var(--lighter-green);
+    text-decoration: none;
+}
+
+.language {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: black;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
 #title-section {
     margin-top: 1em;
     line-height: 1.5em;
@@ -36,11 +58,30 @@ h1, h2, h3, h4, h5, h6 {
 #my-picture {
     margin: auto auto;
     display: block;
+    margin-bottom: 2em;
+}
+
+#aboutme p {
+    margin: auto 2em;
 }
 
 #skills div {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     margin: auto 6em;
 }
 
+#skills section {
+    display:inline-block;
+    margin: auto .7em;
+}
+
+#skills :nth-child(3) section {
+    margin-left: 3.1em;
+    margin-right: 3.1em;
+}
+
+#skills :nth-child(4) section {
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+    text-align: center;
+}
